@@ -14,7 +14,7 @@ const Body = () => {
       {/* Video Section */}
       <div className='w-full h-full'>
         <video
-          src="/public/wedding-1.mp4"
+          src={`${import.meta.env.BASE_URL}/wedding-1.mp4`}
           autoPlay
           loop
           muted
